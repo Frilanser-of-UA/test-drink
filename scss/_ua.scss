@@ -1,0 +1,44 @@
+.title {
+	line-height: calc((60/40)*100%);
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #305c94;
+	z-index: 2;
+	position: relative;
+	@include adaptiv-font(40, 20, 40);
+	span{
+		color: #000000;
+		display: block;
+	}
+}
+.item{
+	line-height: calc((40/24)*100%);
+	font-weight: 400;
+	padding: 0px 0px 0px 54px;
+	position: relative;
+	&::before{
+		content:'';
+		width: 24px;
+		height: 18px;
+		background: url('../img/icons/mark.png') center/100% no-repeat;
+		position: absolute;
+		top: 10px;
+		left: 2px;
+	}
+}
+.btn {
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #f95b2a;
+	border-radius: 4px;
+	height: 66px;
+	width: 330px;
+	transition: background-color 0.3s ease 0s;
+	@media(any-hover:hover){
+		&:hover{
+			background-color: #305c94;
+		}
+	}
+}

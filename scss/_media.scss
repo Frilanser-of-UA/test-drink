@@ -1,0 +1,210 @@
+.title {
+	span{
+		@media (max-width:($md3+px)){
+			display: inline;
+		}
+	}
+}
+.item{
+	@media (max-width:($md1+px)){
+		font-size: 18px; 
+		padding: 0px 0px 0px 35px;
+  }
+	@media (max-width:($md3+px)){ 
+		line-height: calc((18/15)*100%);
+		&:not(:last-child){
+			margin: 0px 0px 10px 0px;
+		}
+  }
+	&::before{
+		@media (max-width:($md1+px)){
+			width: 20px;
+			height: 14px;
+			top: 6px;
+	  }
+	}
+}
+.btn {
+	@media (max-width:($md4+px)){
+		width: 100%;
+	}
+}
+
+.page {
+	&__set {
+		@media (max-width:($md3+px)){
+			margin:30px 0px 0px 0px;
+		}
+	}
+	&__detals {
+		@media (max-width:($md3+px)){
+			padding: 30px 0px 30px 0px;
+		}
+	}
+	&__drink {
+		@media (max-width:($md3+px)){
+			margin: 0px 0px 30px 0px;
+		}
+	}
+	&__benefits {
+		@media (max-width:($md1+px)){
+			margin: 0px 0px 150px 0px;
+		}
+		@media (max-width:($md3+px)){
+			margin: 0px 0px 50px 0px;
+		}
+	}
+}
+.set {
+	&__title {
+		@media (max-width:($md1+px)){
+			padding: 10px 0px 20px 0px;
+			max-width: 80%;
+		}
+		@media (max-width:($md3+px)){
+			max-width: 100%;
+		}
+	}
+	&__list {
+		@media (max-width:($md1+px)){
+			 max-width: 50%; 
+		}
+		@media (max-width:($md3+px)){
+			 max-width: 100%; 
+		}
+	}
+	&__img {
+		@media (max-width:($md1+px)){
+			 max-width: 50%; 
+			 top: 50%;
+			 right: 0;
+			 transform: translateY(-50%);
+		}
+		@media (max-width:($md3+px)){
+			 position: static; 
+			 margin: 10px 0px 0px 0px;
+			 max-width: 100%;
+			 transform: translateY(0);
+		}
+	}
+}
+.detals {
+	&__bg-1 {
+		@media (max-width:($md1+px)){
+			top: 0; 
+			left: 0;
+	  }
+	}
+	&__title {
+		@media (max-width:($md1+px)){
+			margin: 0px 0px 8px 0px;
+		}
+	}
+	&__text {
+		@media (max-width:($md1+px)){
+			font-size: 18px;
+		}
+	}
+	&__body {
+		@media (max-width:($md3+px)){
+			margin: 20px 0px 0px 0px;
+		}
+	}
+	&__bg-2 {
+		@media (max-width:($md1+px)){
+			bottom: 0;
+			right: 0;
+	  }
+	}
+}
+
+.product {
+	@media (max-width:($md1+px)){
+		 display: block; 
+	}
+	@media (max-width:($md3+px)){
+		padding: 10px;
+	}
+	&__title {
+		@media (max-width:($md3+px)){
+			margin: 0px 0px 8px 0px;
+			font-size: 18px;
+			line-height: 1;
+		}
+	}
+	&__text {
+		@media (max-width:($md3+px)){
+			font-size: 18px;
+		}
+
+	}
+	&__img {
+		@media (max-width:($md1+px)){
+			margin: 0px auto 15px auto;
+			max-width: 480px;
+		}
+		img{
+			@media (max-width:($md1+px)){
+				width: 100%;
+			}
+		}
+	}
+	&__old-price {
+		@media (max-width:($md3+px)){
+			font-size: 18px;
+			margin: 0px 0px 5px 0px;
+		}
+	}
+	&__new-price {
+		@media (max-width:($md3+px)){
+			font-size: 38px;
+			margin: 0px 0px 5px 0px;
+		}
+	}
+	&__label {
+		@media (max-width:($md3+px)){
+			font-size: 26px;
+			margin: 0px 0px 10px 0px;
+		}
+	}
+}
+
+.drink {
+	&__body {
+		@media (max-width:($md3+px)){
+			flex-direction: column-reverse;
+
+		}
+	}
+	&__img {
+		@media (max-width:($md3+px)){
+			width: 100%;
+			flex: 0 1 auto;
+			padding: 0px 0px 122.16% 0px;
+		}
+	}
+	&__image-line-1 {
+		@media (max-width:($md1+px)){
+			width: 110%;
+		}
+	}
+	&__image-line-2 {
+		@media (max-width:($md1+px)){
+			width: 50%;
+		}
+	}
+	&__title {
+		@media (max-width:($md3+px)){
+			width: 100%;
+			flex: 0 1 auto;
+			margin: 0px 0px 20px 0px;
+		}
+	}
+}
+.benefits {
+	&__title {
+		@media (max-width:($md3+px)){
+			 margin: 0px 0px 10px 0px; 
+		}
+	}
+}

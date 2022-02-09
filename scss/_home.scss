@@ -1,0 +1,325 @@
+.page {
+
+	// .page__set
+
+	&__set {
+		margin: 142px 0px 0px 0px;
+	}
+	
+	// .page__detals
+
+	&__detals {
+		padding: 151px 0px 90px 0px;
+	}
+	
+	// .page__drink
+
+	&__drink {
+		margin: 0px 0px 155px 0px;
+	}
+	// .page__benefits
+
+	&__benefits {
+		margin: 0px 0px 244px 0px;
+	}
+}
+.set {
+
+	// .set__container
+
+	&__container {
+	}
+
+	// .set__body
+
+	&__body {
+		position: relative;
+	}
+
+	// .set__title
+
+	&__title {
+		text-align: left;
+		padding: 70px 0px 59px 0px;
+		max-width: 810px;
+	}
+
+	// .set__list
+
+	&__list {
+		max-width: 600px;
+	}
+
+	// .set__item
+
+	&__item {
+
+	}
+
+	// .set__img
+
+	&__img {
+		max-width:calc((870/1410)*100%) ;
+		position: absolute;
+		top: 0;
+		right: -25px;
+		z-index: 0;
+		img{
+			max-width: 100%;
+		}
+	}
+	
+}
+
+.detals {
+
+	// .detals__container
+
+	&__container {
+		position: relative;
+	}
+
+	// .detals__bg-1
+
+	&__bg-1 {
+		width: calc((580/1410)*100%);
+		padding: 0px 0px 50% 0px;
+		background: url('../img/efects-1.png') 0 0/100% no-repeat;
+		position: absolute;
+		top: -15%;
+		left: -14.5%;
+		z-index: -1;
+	}
+
+	// .detals__title
+
+	&__title {
+		text-align: center;
+		margin: 0px 0px 13px 0px;
+	}
+
+	// .detals__text
+
+	&__text {
+		text-align: center;
+		font-size: 36px;
+		line-height: 1.2;
+		font-weight: 400;
+	}
+
+	// .detals__body
+
+	&__body {
+		margin: 40px 0px 0px 0px;
+	}
+
+	// .detals__product
+
+	&__product {
+	}
+
+	// .detals__bg-2
+
+	&__bg-2 {
+		width: calc((580/1410)*100%);
+		padding: 0px 0px 50% 0px;
+		background: url('../img/efects-2.png') 0 0/100% no-repeat;
+		position: absolute;
+		bottom: -16%;
+		right: -10%;
+		z-index: -1;
+	}
+}
+
+.product {
+	background-color: #ffffff;
+	box-shadow: 0px 12px 65px 3px rgba(7,16,29,0.12);
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 35px 40px 50px 62px;
+	&:not(:last-child){
+		margin: 0px 0px 34px 0px;
+	}
+	// .product__info
+
+	&__info {
+		flex: 0 1 560px;
+	}
+
+	// .product__title
+
+	&__title {
+		font-size: 36px;
+		line-height: 28px;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin: 0px 0px 30px 0px;
+	}
+
+	// .product__text
+
+	&__text {
+		font-size: 28px;
+		line-height: 1.2;
+		font-weight: 400;
+	}
+
+	// .product__img
+
+	&__img {
+		flex: 1 1 auto;
+		margin: 0px 30px 0px 30px;
+		img{
+		}
+	}
+
+	// .product__prices
+
+	&__prices {
+		flex: 0 0 auto;
+	}
+
+	// .product__old-price
+
+	&__old-price {
+		font-size: 36px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #a2b1c5;
+		margin: 0px 0px 15px 0px;
+		text-decoration: line-through;
+	}
+
+	// .product__old-price
+
+	&__new-price {
+		text-transform: uppercase;
+		font-size: 60px;
+		font-weight: 700;
+		margin: 0px 0px 8px 0px;
+	}
+
+	// .product__label
+
+	&__label {
+		margin: 0px 0px 20px 0px;
+		font-size: 36px;
+		font-weight: 400;
+	}
+
+	// .product__btn
+
+	&__btn {
+	}
+}
+
+.drink {
+
+	// .drink__container
+
+	&__container {
+		position: relative;
+		align-items: center;
+	}
+
+	// .drink__body
+
+	&__body {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	// .drink__img
+
+	&__img {
+		flex: 0 0 calc((510/1410)*100%);
+		padding: 0px 0px 44.16% 0px;
+		position: relative;
+	}
+	// .drink__image
+
+	&__image {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		z-index: 2;
+		margin: 0px 10px 0px 0px;
+	}
+	// .drink__image-line-1
+
+	&__image-line-1 {
+		position: absolute;
+		z-index: 1;
+		top: 25px;
+		left: -25px;
+	}
+	// .drink__image-line-2
+
+	&__image-line-2 {
+		position: absolute;
+		z-index: 3;
+		top: 54%;
+		left: -9%;
+		transform: translateY(-50%);
+	}
+
+	// .drink__title
+
+	&__title {
+		flex: 0 1 830px;
+	}
+
+	// .drink__bg
+
+	&__bg {
+		width: calc((480/1410)*100%);
+		padding: 0px 0px 50% 0px;
+		background: url('../img/efects-3.png') 0 0/100% no-repeat;
+		position: absolute;
+		top: 35%;
+		right: -14.5%;
+		z-index: -1;
+	}
+}
+
+
+.benefits {
+
+	// .benefits__container
+
+	&__container {
+	}
+
+	// .benefits__body
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	// .benefits__title
+
+	&__title {
+		margin: 0px 0px 60px 0px;
+		max-width: 750px;
+		text-align: center;
+	}
+
+	// .benefits__list
+
+	&__list {
+		max-width: 1250px;
+	}
+
+	// .benefits__item
+
+	&__item {
+	}
+}
